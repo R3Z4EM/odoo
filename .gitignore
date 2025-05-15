@@ -8,6 +8,7 @@ _build/
 !.mailmap
 # compiled python files
 *.py[co]
+*.pyc
 __pycache__/
 # setup.py egg_info
 *.egg-info
@@ -49,3 +50,15 @@ package.json
 /man/
 /share/
 /src/
+
+# Python
+venv/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# VS Code settings (optional)
+.vscode/
